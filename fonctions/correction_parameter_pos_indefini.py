@@ -1,5 +1,5 @@
-def calculer_statistiques(*args, operation="Non defini"):
-    if operation == "Non defini":
+def calculer_statistiques(*args, operation=None):
+    if not operation:
         return "operation need to be defined"
     elif operation == "somme":
         return sum(args)
