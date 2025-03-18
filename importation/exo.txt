@@ -1,0 +1,12 @@
+0. Nouveau doosier
+
+1. Modules Améliorations
+- Dans  module1.py, faite une variable nom avec votre nom. 
+- Dans  module1.py, une fonction  bonjour qui print “bonjour “+ la variable nom.
+- Dans module1.py, lorsque module1.py est le module principale bonjour est appelé.
+
+2. Importations de modules
+Dans  un nouveau fichier main.py, importer module1 pour utiliser module1.bonjour 
+
+3. Importé directement une variable
+Dans le fichier main.py, importer nom de module1 dans la variable module1_nom
