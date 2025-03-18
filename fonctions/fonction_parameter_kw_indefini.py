@@ -13,5 +13,5 @@ fonction(b = 4, o = "OK") #2 4 {"o" : "OK"}
 dictionnaire = {'c': 100, 'd': -2, 'e': 'OK'}
 
 fonction(dictionnaire) #{'c': 100, 'd': -2, 'e': 'OK'} 3 {}
-fonction(c= 100, d= -2, e= 'OK')
-fonction(**dictionnaire)
+fonction(c= 100, d= -2, e= 'OK') #2 3 {'c': 100, 'd': -2, 'e': 'OK'}
+fonction(**dictionnaire) #2 3 {'c': 100, 'd': -2, 'e': 'OK'}
